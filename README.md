@@ -8,7 +8,7 @@
 - [ ] Table of contents
 - [ ] Search
 - [ ] Style with Primer React
-- [ ] Deploy to GitHub Pages
+- [x] Deploy to GitHub Pages
 - [ ] Nested component pages
 - [ ] Fetch component data from GitHub repositories
 - [ ] "Edit this page on GitHub" links on every page
