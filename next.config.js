@@ -6,6 +6,7 @@ const nextConfig = {
     styledComponents: true,
   },
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+  basePath: "/nextjs-docs",
 };
 
 const withMDX = require("@next/mdx")({
