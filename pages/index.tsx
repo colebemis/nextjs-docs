@@ -1,5 +1,6 @@
 import { NavList } from "@primer/react";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
       </Head>
       <NavList>
         <NavList.Group title="Guides">
-          <NavList.Item>Getting started</NavList.Item>
+          <NavList.Item as={Link} href="/getting-started">
+            Getting started
+          </NavList.Item>
         </NavList.Group>
         <NavList.Group title="Foundations">
           <NavList.Item>Colors</NavList.Item>

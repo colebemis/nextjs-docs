@@ -2,7 +2,7 @@
 
 **TODO**
 
-- [ ] MDX
+- [x] MDX
 - [ ] Frontmatter
 - [ ] Site navigation
 - [ ] Table of contents
