@@ -7,7 +7,7 @@
 - [ ] Site navigation
 - [ ] Table of contents
 - [ ] Search
-- [ ] Style with Primer React
+- [x] Style with Primer React
 - [x] Deploy to GitHub Pages
 - [ ] Nested component pages
 - [ ] Fetch component data from GitHub repositories

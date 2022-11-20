@@ -1,3 +1,4 @@
+import { NavList } from "@primer/react";
 import Head from "next/head";
 
 export default function Home() {
@@ -6,7 +7,17 @@ export default function Home() {
       <Head>
         <title>Hello, Next.js!</title>
       </Head>
-      Hello, Next.js!
+      <NavList>
+        <NavList.Group title="Guides">
+          <NavList.Item>Getting started</NavList.Item>
+        </NavList.Group>
+        <NavList.Group title="Foundations">
+          <NavList.Item>Colors</NavList.Item>
+        </NavList.Group>
+        <NavList.Group title="Components">
+          <NavList.Item>ActionList</NavList.Item>
+        </NavList.Group>
+      </NavList>
     </div>
   );
 }
